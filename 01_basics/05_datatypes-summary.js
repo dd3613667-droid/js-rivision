@@ -35,3 +35,31 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+// *****************************************************
+//  
+//  Stack (Primitive) & Heap (Non-primitive) Memory
+
+let userName = "riju_sarkar"
+let userId = userName
+userId = "prayas"
+
+console.log(userName);
+console.log(userId);
+
+// Heap memory example
+let userOne = {
+    email : "abcd@gmail.com",
+    password : "12345"
+}
+
+let userTwo = userOne;
+userTwo.email = "1234d@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
