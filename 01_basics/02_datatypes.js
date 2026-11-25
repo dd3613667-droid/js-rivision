@@ -14,7 +14,9 @@ let state;
 // undefined = declare but not assign
 // symbol = unique
 
-
+// Non-Premitive datatypes 
 // object 
+// Array
+// Function
 
 console.log(typeof age);
